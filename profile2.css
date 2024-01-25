@@ -1,0 +1,114 @@
+body {
+  background-color: #365486;
+  direction: rtl;
+}
+
+.container {
+  background-color: #7FC7D9;
+  padding-top: 10px;
+}
+
+.profileImg {
+  border-radius: 50%;
+  width: 30vwrem;
+  height: 30vw;
+  border-color: #0F1035;
+  border-style: solid;
+  border-width: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 20px #0F1035;
+}
+
+.title {
+  text-align: center;
+  color: #0F1035;
+}
+.title h1 {
+  box-shadow: 5px 5px 20px #0F1035;
+}
+.title h4 {
+  box-shadow: 5px 5px 20px #0F1035;
+}
+
+.text {
+  color: #0F1035;
+}
+
+.skills {
+  border: 1px solid #7FC7D9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 20px #0F1035;
+}
+
+.mySkills {
+  box-shadow: 0px 5px 5px lightblue;
+}
+
+.skill {
+  padding: 5px;
+  margin-top: 10px;
+  direction: ltr;
+}
+
+.skillTitle {
+  font-weight: 500;
+}
+
+.about {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #7FC7D9;
+  color: #0F1035;
+  box-shadow: 5px 5px 20px #0F1035;
+  margin-bottom: 10px;
+}
+
+.additionalSkills {
+  margin: 0px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.row {
+  margin: 20px;
+}
+
+.additionalSkill {
+  margin: 10px;
+  font-size: small;
+  color: #DCF2F1;
+  background-color: #0F1035;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+  display: contents;
+  font-stretch: normal;
+  font-size: x-small;
+}
+.nav-item a {
+  background-color: #0F1035;
+  color: #DCF2F1;
+}
+
+.list-group-item {
+  margin-left: 20px;
+  background-color: #7FC7D9;
+  border: none;
+  box-shadow: 5px 5px 20px #0F1035;
+}
+
+.activee {
+  background-color: #0F1035;
+  color: #DCF2F1;
+}/*# sourceMappingURL=profile2.css.map */

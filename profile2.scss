@@ -1,0 +1,107 @@
+$colorFirst:#DCF2F1;
+$colorseccond:#7FC7D9;
+$colorthered:#365486;
+$colorfoured:#0F1035;
+body{
+    background-color: $colorthered;
+    direction: rtl;
+}
+.container{background-color: #7FC7D9;
+padding-top: 10px;}
+.profileImg{
+    border-radius:50%;
+    width: 30vwrem;
+    height: 30vw;
+    border-color: $colorfoured;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 20px $colorfoured;
+
+}
+.title{
+    text-align: center;
+    color: $colorfoured;
+    h1{    box-shadow: 5px 5px 20px $colorfoured;
+    }
+h4{    box-shadow: 5px 5px 20px $colorfoured;
+}
+}
+.text{
+    color: $colorfoured;
+
+}
+.skills{
+    border:1px solid $colorseccond;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px $colorfoured;
+
+
+}
+.mySkills{
+    box-shadow:0px 5px 5px  lightblue;
+}
+.skill{
+    padding: 5px;
+    margin-top: 10px;
+    direction: ltr; 
+}
+.skillTitle{
+    font-weight: 500;
+}
+.about{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: $colorseccond;
+    color: $colorfoured;
+    box-shadow: 5px 5px 20px $colorfoured;
+    margin-bottom: 10px;
+
+}
+.additionalSkills{
+    margin: 0px;
+    padding: 0;
+    margin-bottom: 10px;
+
+
+}
+.row{
+    margin: 20px;
+}
+.additionalSkill{
+    margin: 10px;
+font-size: small;
+color: $colorFirst;
+background-color: #0F1035;
+width: fit-content;
+}
+.nav-item{
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    display: contents;
+
+font-stretch: normal;
+font-size: x-small;
+a{
+    background-color: #0F1035;
+color: #DCF2F1;
+}
+}
+
+.list-group-item{margin-left: 20px;
+    background-color: #7FC7D9;
+border: none;
+box-shadow: 5px 5px 20px $colorfoured;
+}
+.activee{
+    background-color:$colorfoured;
+    color: $colorFirst;
+}
+
